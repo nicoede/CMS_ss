@@ -1,0 +1,11 @@
+To start it just run phpmyadmin-ctl install
+
+If my Cloud9 username is "myUser" then I can change my password to "test" by running:
+
+SET PASSWORD FOR 'myUser'@'%' = PASSWORD('test');
+
+From this point, I'll get into the CLI for MySQL by doing:
+
+mysql -u myUser -p
+
+Then I'll be prompted for my password.
